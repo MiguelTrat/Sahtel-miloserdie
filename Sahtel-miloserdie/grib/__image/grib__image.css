@@ -1,0 +1,31 @@
+.grib__image {
+    max-width: 300px;
+    min-height: 300px;
+    place-self: center;
+    object-fit: cover;
+    grid-area: image;
+}
+
+@media (max-width: 900px) {
+    .grib__image {
+        max-width: 250px;
+        min-height: 250px;
+        grid-area: image;
+    }
+}
+
+@media (max-width: 800px) {
+    .grib__image {
+        max-width: 200px;
+        min-height: 200px;
+        grid-area: image;
+    }
+}
+
+@media (max-width: 500px) {
+    .grib__image {
+        max-width: 150px;
+        min-height: 150px;
+        grid-area: image;
+    }
+}
